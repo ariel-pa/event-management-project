@@ -75,3 +75,5 @@ password 123
 email maria@gmail.com
 password 123
 ```
+
+![Modulo Nucleo](docs/c4_img/contexto.png)
