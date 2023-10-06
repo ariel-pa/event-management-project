@@ -75,3 +75,17 @@ password 123
 email maria@gmail.com
 password 123
 ```
+
+## 5 Docker
+
+```bash
+#comando para generar imagen docker del backend
+docker build . -t <name-image>
+```
+
+```bash
+#correr imagen
+docker run <name-image>
+#correr imagen con inyeccion de variables de entorno .env y iniciar en un nuevo puerto 
+docker run --env-file=./.env -p <new-port>:3001 <name-image>
+```
